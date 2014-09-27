@@ -14,6 +14,7 @@
 		580690C419D6ABDC00CFE296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580690C319D6ABDC00CFE296 /* Images.xcassets */; };
 		580690C719D6ABDC00CFE296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580690C519D6ABDC00CFE296 /* LaunchScreen.xib */; };
 		580690D319D6ABDC00CFE296 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580690D219D6ABDC00CFE296 /* Git_TestTests.m */; };
+		580690DE19D6B1A600CFE296 /* SBWHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 580690DD19D6B1A600CFE296 /* SBWHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		580690CC19D6ABDC00CFE296 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		580690D119D6ABDC00CFE296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		580690D219D6ABDC00CFE296 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		580690DC19D6B1A600CFE296 /* SBWHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBWHTest.h; sourceTree = "<group>"; };
+		580690DD19D6B1A600CFE296 /* SBWHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBWHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		580690AA19D6ABDC00CFE296 = {
 			isa = PBXGroup;
 			children = (
+				580690DC19D6B1A600CFE296 /* SBWHTest.h */,
+				580690DD19D6B1A600CFE296 /* SBWHTest.m */,
 				580690B519D6ABDC00CFE296 /* Git Test */,
 				580690CF19D6ABDC00CFE296 /* Git TestTests */,
 				580690B419D6ABDC00CFE296 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				580690BF19D6ABDC00CFE296 /* ViewController.m in Sources */,
+				580690DE19D6B1A600CFE296 /* SBWHTest.m in Sources */,
 				580690BC19D6ABDC00CFE296 /* AppDelegate.m in Sources */,
 				580690B919D6ABDC00CFE296 /* main.m in Sources */,
 			);
